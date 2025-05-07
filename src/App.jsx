@@ -1,8 +1,12 @@
 import React from "react";
-import Counter from "./Counter";
+import TodoList from "./TodoList";
 
 const App = () => {
-  return <Counter />;
+  return (
+    <div>
+      <TodoList />
+    </div>
+  );
 };
 
 export default App;
